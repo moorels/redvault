@@ -16,14 +16,14 @@ const [user,setUser] = useState('test email id')
     <UserContext.Provider value={{user, setUser}}>
       <Set wrap={HeadzLayout}>
 
-        <Private unauthenticated="login">
+
           <Set wrap={VaultsLayout}>
             <Route path={`/vaults/${sum}/new`} page={VaultNewVaultPage} name="newVault" />
             <Route path={`/vaults/${sum}/{id:Int}/edit`} page={VaultEditVaultPage} name="editVault" />
             <Route path={`/vaults/${sum}/{id:Int}`} page={VaultVaultPage} name="vault" />
             <Route path="/vaults" page={VaultVaultsPage} name="vaults" />
           </Set>
-        </Private>
+
 
         <Route path="/contact" page={ContactPage} name="contact" />
         <Route path="/" page={HomePage} name="home" />
