@@ -1,6 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 import { Toaster } from '@redwoodjs/web/toast'
-import VaultsCell from 'src/components/vault/VaultsCell/VaultsCell'
+import VaultsCell from '../../components/Vault/VaultsCell/VaultsCell'
 import { useState } from 'react'
 import { Form, TextField, Submit } from '@redwoodjs/forms'
 import { useAuth } from '@redwoodjs/auth'

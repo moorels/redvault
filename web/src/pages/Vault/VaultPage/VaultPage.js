@@ -1,21 +1,11 @@
-import VaultCell from 'src/components/Vault/VaultCell'
-import { useState } from 'react'
-
-
+import VaultCell from '../../../components/Vault/VaultCell'
 
 const VaultPage = ({ id }) => {
-
-
   return (
-
-<div>
-
-
+    <div>
       <VaultCell id={id} />
     </div>
-
   )
-
 }
 
 export default VaultPage

@@ -1,6 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 
-import VaultsCell from 'src/components/vault/VaultsCell/VaultsCell'
+import VaultsCell from 'src/components/Vault/VaultsCell/VaultsCell'
 import { useState } from 'react'
 import { Form, Label, TextField, Submit, FieldError } from '@redwoodjs/forms'
 
