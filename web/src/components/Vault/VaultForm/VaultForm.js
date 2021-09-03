@@ -94,7 +94,6 @@ const VaultForm = (props) => {
         <TextField
           name="userEmailId"
           defaultValue={user}
-          hidden
           className="rw-input"
           errorClassName="rw-input rw-input-error"
           validation={{ required: true }}
