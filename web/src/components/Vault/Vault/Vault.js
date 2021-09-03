@@ -1,7 +1,7 @@
 import { useMutation } from '@redwoodjs/web'
 import { toast } from '@redwoodjs/web/toast'
 import { Link, routes, navigate } from '@redwoodjs/router'
-import VaultsCell from 'src/components/Vault/VaultsCell/VaultsCell'
+
 const DELETE_VAULT_MUTATION = gql`
   mutation DeleteVaultMutation($id: Int!) {
     deleteVault(id: $id) {
